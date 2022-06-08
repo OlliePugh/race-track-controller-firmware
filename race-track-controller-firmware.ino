@@ -1,9 +1,10 @@
+
 #include <ArduinoJson.h>
 
-#define CAR_1_FORWARD 10
-#define CAR_1_RIGHT 9
-#define CAR_1_BACKWARD 11
-#define CAR_1_LEFT 7
+#define CAR_1_FORWARD 11
+#define CAR_1_RIGHT 8
+#define CAR_1_BACKWARD 10
+#define CAR_1_LEFT 9
 #define CAR_2_FORWARD 4
 #define CAR_2_RIGHT 6
 #define CAR_2_BACKWARD 7
@@ -33,7 +34,7 @@ void transmitControls() {  // remember low == false and high == true
 
 void setup() {
   // put your setup code here, to run once:
-  Serial.begin(9600);
+  Serial.begin(57600);
 }
 
 void loop() {
